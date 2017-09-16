@@ -1,0 +1,46 @@
+# Site settings
+name: snow man
+email: liuwenjie2580@qq.com
+author: wen jay
+url: http://www.wuwendan.com
+resume_site: http://www.wuwendan.com/Resume.io/
+github: https://wenjayliu.github.io/
+baseurl: ""
+description: Actually, less is more!
+meta_description: 文杰 ，沉默中
+motto: It's our wits that make us men.
+banner: 学而不思则罔，思而不学则殆。
+
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+paginate: 10
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+github_username: wenjayliu
+highlighter: Pygments
+
+# Build settings
+markdown: kramdown
+
+baidu_analysis: 94be4b0f9fc5d94cc0d0415ea6761ae9
+
+FB:
+  comments :
+    provider : null
+    duoshuo:
+        short_name : wenjayliu
+    disqus :
+        short_name : wenjayliu
+    # facebook :
+    #   appid : 123
+    #   num_posts: 5
+    #   width: 580
+    #   colorscheme: light
+
+
+# plugins: [jekyll-paginate]
+gems: [jekyll-paginate]
+ # - jekyll-sitemap
+ # - jekyll-seo-tag
+ # - jekyll-feed
